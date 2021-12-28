@@ -16,4 +16,9 @@ describe('User', () => {
     const user0 = new User(28);
     expect(user0.venus()).toEqual(45.16129032258065)
   });
+
+  test('Should correctly divide user age by Mars years', () => {
+    const user0 = new User(28);
+    expect(user0.mars()).toEqual(1.88)
+  });
 });
