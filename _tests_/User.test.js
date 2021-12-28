@@ -10,5 +10,10 @@ describe('User', () => {
   test('Should correctly divide user age by Mercury years', () => {
     const user0 = new User(28);
     expect(user0.mercury()).toEqual(116.66666666666667)
-  })
+  });
+
+  test('Should correctly divide user age by Venus years', () => {
+    const user0 = new User(28);
+    expect(user0.venus()).toEqual(45.1612903226)
+  });
 });
