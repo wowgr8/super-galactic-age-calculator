@@ -24,6 +24,6 @@ describe('User', () => {
 
   test('Should correctly divide user age by Jupiter years', () => {
     const user0 = new User(28);
-    expect(user0.jupiter()).toEqual(2.3608768971)
+    expect(user0.jupiter()).toEqual(2.3608768971332212)
   });
 });

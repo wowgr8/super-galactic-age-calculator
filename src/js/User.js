@@ -14,4 +14,8 @@ export default class User {
   mars() {
     return this.earthAge / 1.88;
   }
+
+  jupiter() {
+    return this.earthAge / 11.86;
+  }
 }
