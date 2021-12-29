@@ -21,7 +21,11 @@ export default class lifeExpectancy {
   } 
 
   marsExpectancy() {
-    return (this.expectedAge - this.currentAge)/ 1.88;
+    if (this.currentAge > this.expectedAge) {
+      return (this.currentAge - this.expectedAge) / 1.88;
+    } else {
+      return (this.expectedAge - this.currentAge) / 1.88;
+    }
   }
 
   jupiterExpectancy() {

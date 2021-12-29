@@ -39,6 +39,6 @@ describe('lifeExpectancy', () => {
 
   test('Should return the number of years the user has lived past the life expectancy in Martian years', () => {
     const user0 = new lifeExpectancy(88,98);
-    expect(user0.marsExpectancy()).toEqual(5.3191489362);
+    expect(user0.marsExpectancy()).toEqual(5.319148936170213);
   });
 });
