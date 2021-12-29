@@ -17,7 +17,7 @@ describe('lifeExpectancy', () => {
     expect(user0.venusExpectancy()).toEqual(96.7741935483871)
   });
 
-  test('Should return life expectancy in Mars years', () => {
+  test('Should return life expectancy in Martian years', () => {
     const user0 = new lifeExpectancy(88,28);
     expect(user0.marsExpectancy()).toEqual(31.914893617021278)
   });
@@ -35,5 +35,10 @@ describe('lifeExpectancy', () => {
   test('Should return the number of years the user has lived past the life expectancy in Venus years', () => {
     const user0 = new lifeExpectancy(88,98);
     expect(user0.venusExpectancy()).toEqual(16.129032258064516);
+  });
+
+  test('Should return the number of years the user has lived past the life expectancy in Martian years', () => {
+    const user0 = new lifeExpectancy(88,98);
+    expect(user0.marsExpectancy()).toEqual(5.3191489362);
   });
 });
