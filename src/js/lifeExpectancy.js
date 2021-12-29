@@ -29,7 +29,11 @@ export default class lifeExpectancy {
   }
 
   jupiterExpectancy() {
-    return (this.expectedAge - this.currentAge)/ 11.86;
+    if (this.currentAge > this.expectedAge) {
+      return (this.currentAge - this.expectedAge) / 11.86;
+    } else {
+      return (this.expectedAge - this.currentAge) / 11.86;
+    }
   }
 }
 

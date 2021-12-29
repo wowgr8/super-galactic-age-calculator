@@ -44,6 +44,6 @@ describe('lifeExpectancy', () => {
 
   test('Should return the number of years the user has lived past the life expectancy in Jupiter years', () => {
     const user0 = new lifeExpectancy(88,98);
-    expect(user0.jupiterExpectancy()).toEqual(0.8431703204);
+    expect(user0.jupiterExpectancy()).toEqual(0.8431703204047218);
   });
 });
