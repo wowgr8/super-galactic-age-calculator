@@ -11,4 +11,8 @@ export default class lifeExpectancy {
   venusExpectancy() {
     return (this.expectedAge - this.currentAge)/ .62;
   }
+
+  marsExpectancy() {
+    return (this.expectedAge - this.currentAge)/ 1.88;
+  }
 }
