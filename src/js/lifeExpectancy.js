@@ -6,14 +6,18 @@ export default class lifeExpectancy {
 
   mercuryExpectancy() {
     if (this.currentAge > this.expectedAge) {
-      return (this.currentAge - this.expectedAge)/.24;
+      return (this.currentAge - this.expectedAge) /.24;
     } else {
-      return (this.expectedAge - this.currentAge)/ .24;
+      return (this.expectedAge - this.currentAge) / .24;
     }    
   }
 
   venusExpectancy() {
-    return (this.expectedAge - this.currentAge)/ .62;
+    if (this.currentAge > this.expectedAge) {
+      return (this.currentAge - this.expectedAge) /.62;
+    } else {
+      return (this.expectedAge - this.currentAge) /.62;
+    }
   } 
 
   marsExpectancy() {
