@@ -9,6 +9,6 @@ describe('lifeExpectancy', () => {
 
   test('Should return life expectancy in mercury years', () => {
     const user0 = new lifeExpectancy(88, 28);
-    expect((user0.expectedAge - user0.currentAge)/.24).toEqual(250);
-  })
+    expect(user0.mercuryExpectancy()).toEqual(250);
+  });
 });
