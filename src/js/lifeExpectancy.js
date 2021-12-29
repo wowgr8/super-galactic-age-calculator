@@ -5,12 +5,16 @@ export default class lifeExpectancy {
   }
 
   mercuryExpectancy() {
-    return (this.expectedAge - this.currentAge)/ .24;
+    if (this.currentAge > this.expectedAge) {
+      return (this.currentAge - this.expectedAge)/.24;
+    } else {
+      return (this.expectedAge - this.currentAge)/ .24;
+    }    
   }
 
   venusExpectancy() {
     return (this.expectedAge - this.currentAge)/ .62;
-  }
+  } 
 
   marsExpectancy() {
     return (this.expectedAge - this.currentAge)/ 1.88;
@@ -20,3 +24,5 @@ export default class lifeExpectancy {
     return (this.expectedAge - this.currentAge)/ 11.86;
   }
 }
+
+//If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy. The number of years lived past life expectancy should be a positive number.
