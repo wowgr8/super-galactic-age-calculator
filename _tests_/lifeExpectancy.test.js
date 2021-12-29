@@ -14,6 +14,6 @@ describe('lifeExpectancy', () => {
 
   test('Should return life expectancy in Venus years', () => {
     const user0 = new lifeExpectancy(88,28);
-    expect(user0.venusExpectancy()).toEqual(142.3870967742)
+    expect(user0.venusExpectancy()).toEqual(96.7741935483871)
   });
 });

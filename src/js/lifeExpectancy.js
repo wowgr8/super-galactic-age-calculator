@@ -7,4 +7,8 @@ export default class lifeExpectancy {
   mercuryExpectancy() {
     return (this.expectedAge - this.currentAge)/ .24;
   }
+
+  venusExpectancy() {
+    return (this.expectedAge - this.currentAge)/ .62;
+  }
 }
