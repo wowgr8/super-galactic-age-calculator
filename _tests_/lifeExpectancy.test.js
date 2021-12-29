@@ -7,8 +7,13 @@ describe('lifeExpectancy', () => {
     expect(user0.expectedAge - user0.currentAge).toEqual(60);
   });
 
-  test('Should return life expectancy in mercury years', () => {
+  test('Should return life expectancy in Mercury years', () => {
     const user0 = new lifeExpectancy(88, 28);
     expect(user0.mercuryExpectancy()).toEqual(250);
+  });
+
+  test('Should return life expectancy in Venus years', () => {
+    const user0 = new lifeExpectancy(88,28);
+    expect(user0.venusExpectancy()).toEqual(142.3870967742)
   });
 });
