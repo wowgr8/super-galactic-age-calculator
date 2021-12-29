@@ -26,4 +26,9 @@ describe('lifeExpectancy', () => {
     const user0 = new lifeExpectancy(88,28);
     expect(user0.jupiterExpectancy()).toEqual(5.059021922428331)
   });
+
+  test('Should return the number of years the user has lived past the life expectancy in Mercury years', () => {
+    const user0 = new lifeExpectancy(88,98);
+    expect(user0.mercuryExpectancy()).toEqual(41.6666666667);
+  })
 });
