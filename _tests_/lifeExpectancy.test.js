@@ -30,5 +30,10 @@ describe('lifeExpectancy', () => {
   test('Should return the number of years the user has lived past the life expectancy in Mercury years', () => {
     const user0 = new lifeExpectancy(88,98);
     expect(user0.mercuryExpectancy()).toEqual(41.6666666667);
-  })
+  });
+
+  test('Should return the number of years the user has lived past the life expectancy in Venus years', () => {
+    const user0 = new lifeExpectancy(88,98);
+    expect(user0.venusExpectancy()).toEqual(16.1290322581);
+  });
 });
