@@ -36,5 +36,3 @@ export default class lifeExpectancy {
     }
   }
 }
-
-//If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy. The number of years lived past life expectancy should be a positive number.
