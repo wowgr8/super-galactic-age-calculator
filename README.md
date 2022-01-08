@@ -20,17 +20,19 @@ This project will return your age in Mercury, Venus, Mars, and Jupiter years. Ad
 2. Copy and enter this command:
 
 ```
-git clone https://github.com/wowgr8/super-galactic-age-calculator
+$ git clone https://github.com/wowgr8/super-galactic-age-calculator
 ```
-3. Enter the following commands:
+3. Navigate to the top level of the directory with the command ```$ cd super-galactic-age-calculator```
 
-```
-npm install
-```
-```
-npm run start
-```
+4. Make sure you have installed [Node js](https://nodejs.org/en/).
 
+5. Run the command ``` $ npm install ``` to install all dependencies.
+
+6. Run the command ``` $ npm run build ```
+
+7. Run the command ``` $ npm run test ``` to check the test pass.
+
+8. Run the command ``` $ npm run start ``` to launch and view project on your browser.
 ## Known Bugs ##
 
 * None
@@ -59,5 +61,5 @@ npm run start
 
 ## Contact Info ##
 
-* Cesar Lopez <Lopez.cesar.aug@gmail.com>
-* Github: https://github.com/wowgr8
+* Email: Cesar Lopez at (lopez.cesar.aug@gmail.com)[mailto:Lopez.cesar.aug@gmail.com]
+* Github: (https://github.com/wowgr8)[https://github.com/wowgr8]
