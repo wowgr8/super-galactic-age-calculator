@@ -58,5 +58,5 @@ This project will return your age in Mercury, Venus, Mars, and Jupiter years. Ad
 
 ## Contact Info ##
 
-* Email: Cesar Lopez at [mailto:Lopez.cesar.aug@gmail.com](lopez.cesar.aug@gmail.com)
+* Email: Cesar Lopez at [Lopez.cesar.aug@gmail.com](mailto:lopez.cesar.aug@gmail.com)
 * Github: [https://github.com/wowgr8](https://github.com/wowgr8)
