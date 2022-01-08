@@ -1,5 +1,6 @@
 # Super Galactic Age Calculator #
 _By Cesar Lopez_
+### _December 26, 2021_
 
 ## Description ##
 
