@@ -12,6 +12,10 @@ This project will return your age in Mercury, Venus, Mars, and Jupiter years. Ad
 * Github
 * Webpack
 * Jest
+* Babel
+* ESlint
+* Node.js
+* popper.js
 
 ## Setup Instructions ##
 
