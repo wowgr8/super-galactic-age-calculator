@@ -17,11 +17,8 @@ This project will return your age in Mercury, Venus, Mars, and Jupiter years. Ad
 
 1. In your terminal, navigate to the directory you desire to download thse files into.
 
-2. Copy and enter this command:
+2. Copy and enter this command:```$ git clone https://github.com/wowgr8/super-galactic-age-calculator ```
 
-```
-$ git clone https://github.com/wowgr8/super-galactic-age-calculator
-```
 3. Navigate to the top level of the directory with the command ```$ cd super-galactic-age-calculator```
 
 4. Make sure you have installed [Node js](https://nodejs.org/en/).
@@ -61,5 +58,5 @@ $ git clone https://github.com/wowgr8/super-galactic-age-calculator
 
 ## Contact Info ##
 
-* Email: Cesar Lopez at (lopez.cesar.aug@gmail.com)[mailto:Lopez.cesar.aug@gmail.com]
-* Github: (https://github.com/wowgr8)[https://github.com/wowgr8]
+* Email: Cesar Lopez at [mailto:Lopez.cesar.aug@gmail.com](lopez.cesar.aug@gmail.com)
+* Github: [https://github.com/wowgr8](https://github.com/wowgr8)
